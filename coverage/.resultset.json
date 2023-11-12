@@ -1,0 +1,333 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/test_helper.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/environment.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/application.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/boot.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/environments/test.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/initializers/cors.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/config/routes.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/api/v1/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/facade/country_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/services/country_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/facade/recipe_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          22,
+          22,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/services/recipe_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          22,
+          22,
+          22,
+          22,
+          22,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/serializers/recipe_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1699815112
+  }
+}
