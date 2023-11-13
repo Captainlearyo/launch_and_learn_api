@@ -6,7 +6,7 @@ class Api::V1::RecipesController < ApplicationController
       @recipes = RecipeFacade.recipe_search(@random_country) 
     else
       @country = CountryFacade.find_country(@q)
-      @recipes = RecipeFacade.recipe_search(@q)
+      @recipes = RecipeFacade.recipe_search(@country.downcase)
     end
     
     render json: RecipeSerializer.new(@recipes)
