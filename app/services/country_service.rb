@@ -3,8 +3,8 @@ class CountryService
     Faraday.new(url: "https://restcountries.com")
   end
 
-  def self.get_url(link)
-    response = conn.get(link)
+  def self.get_url(endpoint)
+    response = conn.get(endpoint)
     JSON.parse(response.body, symbolize_name: true)
   end
 

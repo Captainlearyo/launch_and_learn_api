@@ -9,8 +9,7 @@ class RecipeService
 
   def self.get_url(endpoint)
     response = conn.get(endpoint)
-    data = JSON.parse(response.body, symbolize_names: true)
-    data
+    JSON.parse(response.body, symbolize_names: true)
   end
 
   def self.recipe_search(q)
