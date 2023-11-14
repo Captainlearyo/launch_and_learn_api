@@ -8,7 +8,7 @@ describe 'Food Poro' do
       label: "Recipe",
       image: "images",
       country: "Italy",
-      url: "http://123" # Simulating a non-nil URL
+      url: "http://123" 
     }
 
     recipe = Recipe.new(attr)
