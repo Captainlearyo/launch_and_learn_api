@@ -7,8 +7,8 @@ class PlacesService
   end
 
   def self.get_url(endpoint)
-    result = conn.get(endpoint)
-    JSON.parse(result.body, symbolize_names: true)
+    response = conn.get(endpoint)
+    JSON.parse(response.body, symbolize_names: true)
   end
 
   def self.find_tourist_sights(lng, lat)
