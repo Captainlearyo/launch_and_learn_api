@@ -11,16 +11,16 @@ RSpec.describe "Create User" do
 
       post "/api/v1/users", params: user, as: :json
 
-      result = JSON.parse(response.body, symbolize_names: true)
+      json_response = JSON.parse(response.body, symbolize_names: true)
 
-      expect(result).to have_key :data
-      expect(result[:data]).to have_key :type
-      expect(result[:data][:type]).to eq("user")
-      expect(result[:data]).to have_key :id
-      expect(result[:data][:id]).to_not be nil
-      expect(result[:data][:attributes]).to have_key :name
-      expect(result[:data][:attributes]).to have_key :email
-      expect(result[:data][:attributes]).to have_key :api_key
+      expect( json_response).to have_key(:data)
+      expect( json_response[:data]).to have_key(:type)
+      expect( json_response[:data]).to have_key :id
+      expect( json_response[:data][:id]).to_not be nil
+      expect( json_response[:data][:type]).to eq("user")
+      expect( json_response[:data][:attributes]).to have_key(:name)
+      expect( json_response[:data][:attributes]).to have_key(:email)
+      expect( json_response[:data][:attributes]).to have_key(:api_key)
 
     end
 
@@ -34,11 +34,11 @@ RSpec.describe "Create User" do
 
       post "/api/v1/users", params: user, as: :json
 
-      result = JSON.parse(response.body, symbolize_names: true)
+      json_response = JSON.parse(response.body, symbolize_names: true)
 
-      expect(result).to be_a(Hash)
-      expect(result).to have_key(:error)
-      expect(result[:error]).to eq("Passwords must match")
+      expect( json_response).to be_a(Hash)
+      expect( json_response).to have_key(:error)
+      expect( json_response[:error]).to eq("Passwords must match")
     
     end
 
@@ -54,11 +54,11 @@ RSpec.describe "Create User" do
 
       post "/api/v1/users", params: user, as: :json
 
-      result = JSON.parse(response.body, symbolize_names: true)
+      json_response = JSON.parse(response.body, symbolize_names: true)
 
-      expect(result).to be_a(Hash)
-      expect(result).to have_key(:error)
-      expect(result[:error]).to eq("invlalid infomation")
+      expect( json_response).to be_a(Hash)
+      expect( json_response).to have_key(:error)
+      expect( json_response[:error]).to eq("invlalid infomation")
     
     end
 end

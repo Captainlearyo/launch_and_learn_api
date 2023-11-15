@@ -197,6 +197,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -257,7 +258,7 @@
           1,
           null,
           1,
-          11,
+          13,
           null,
           null
         ]
@@ -371,6 +372,44 @@
           null,
           0,
           0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/requests/api/v1/requests/session_requests/create_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
           null,
           null,
           null,
@@ -775,6 +814,6 @@
         ]
       }
     },
-    "timestamp": 1700076503
+    "timestamp": 1700077884
   }
 }

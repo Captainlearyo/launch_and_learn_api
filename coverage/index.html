@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-11-15T13:28:23-06:00">2023-11-15T13:28:23-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-11-15T13:51:24-06:00">2023-11-15T13:51:24-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  96.99%
+  94.3%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.21
+         2.13
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>36</b> files in total.
+    <b>37</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>299</b> relevant lines,
-    <span class="green"><b>290</b> lines covered</span> and
-    <span class="red"><b>9</b> lines missed. </span>
+    <b>316</b> relevant lines,
+    <span class="green"><b>298</b> lines covered</span> and
+    <span class="red"><b>18</b> lines missed. </span>
     (<span class="green">
-  96.99%
+  94.3%
 </span>
 )
   </div>
@@ -165,7 +165,7 @@
             <td class="cell--number">11</td>
             <td class="cell--number">11</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.91</td>
+            <td class="cell--number">2.09</td>
             
           </tr>
         
@@ -348,9 +348,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#c24ec7f5b694d9c29c8d4aae0542b05f2835b556" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">14</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">6</td>
+            <td class="cell--number">15</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -408,6 +408,17 @@
             <td class="cell--number">10</td>
             <td class="cell--number">6</td>
             <td class="cell--number">0.63</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#fd966b1bd3643771789d3f5c46231a2c73c3732a" class="src_link" title="spec/requests/api/v1/requests/session_requests/create_spec.rb">spec/requests/api/v1/requests/session_requests/create_spec.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">43.75 %</td>
+            <td class="cell--number">34</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">0.44</td>
             
           </tr>
         
@@ -1770,8 +1781,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="11" data-linenumber="18">
-            <span class="hits">11</span>
+          <li class="covered" data-hits="13" data-linenumber="18">
+            <span class="hits">13</span>
             
 
             
@@ -5287,8 +5298,8 @@
     
 
     <div class="t-line-summary">
-      <b>6</b> relevant lines.
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -5421,13 +5432,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      resources :sessions, only: [:create]</code>
           </li>
         </div>
       
@@ -5438,12 +5449,23 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -6977,6 +6999,411 @@
 </div>
 
       
+        <div class="source_table" id="fd966b1bd3643771789d3f5c46231a2c73c3732a">
+  <div class="header">
+    <h3>spec/requests/api/v1/requests/session_requests/create_spec.rb</h3>
+    <h4>
+      <span class="red">
+  43.75%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>16</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>9</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe &quot;Create Session&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &quot;Happy Path verify&#39;s users email and password and sends response back&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      User.create(name: &quot;John&quot;, email: &quot;yahoo.com&quot;, password: &quot;1234&quot;, password_confirmation: &quot;1234&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">      user_login = {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">        &quot;name&quot;: &quot;John&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">        &quot;email&quot;: &quot;yahoo.com&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">        &quot;password&quot;: &quot;1234&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">        &quot;password_confirmation&quot;: &quot;1234&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">      }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      post &quot;/api/v1/sessions&quot;, params: user_login, as: :json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">      json_response = JSON.parse(response.body, symbolize_names: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">      expect(json_response).to have_key(:data)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">      expect(json_response[:data]).to have_key(:id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">      expect(json_response[:data][:id]).to_not be nil</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">      expect(json_response[:data]).to have_key(:type)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">      expect(json_response[:data][:type]).to eq(&quot;user&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:email)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:api_key)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &quot;Sad Path &quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">      </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="a3d69dc1673bacad04ee5a6d63824c6dc11fe41e">
   <div class="header">
     <h3>spec/requests/api/v1/requests/user_requests/create_spec.rb</h3>
@@ -7153,7 +7580,7 @@
 
             
 
-            <code class="ruby">      result = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">      json_response = JSON.parse(response.body, symbolize_names: true)</code>
           </li>
         </div>
       
@@ -7175,7 +7602,7 @@
 
             
 
-            <code class="ruby">      expect(result).to have_key :data</code>
+            <code class="ruby">      expect( json_response).to have_key(:data)</code>
           </li>
         </div>
       
@@ -7186,7 +7613,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data]).to have_key :type</code>
+            <code class="ruby">      expect( json_response[:data]).to have_key(:type)</code>
           </li>
         </div>
       
@@ -7197,7 +7624,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data][:type]).to eq(&quot;user&quot;)</code>
+            <code class="ruby">      expect( json_response[:data]).to have_key :id</code>
           </li>
         </div>
       
@@ -7208,7 +7635,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data]).to have_key :id</code>
+            <code class="ruby">      expect( json_response[:data][:id]).to_not be nil</code>
           </li>
         </div>
       
@@ -7219,7 +7646,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data][:id]).to_not be nil</code>
+            <code class="ruby">      expect( json_response[:data][:type]).to eq(&quot;user&quot;)</code>
           </li>
         </div>
       
@@ -7230,7 +7657,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data][:attributes]).to have_key :name</code>
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:name)</code>
           </li>
         </div>
       
@@ -7241,7 +7668,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data][:attributes]).to have_key :email</code>
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:email)</code>
           </li>
         </div>
       
@@ -7252,7 +7679,7 @@
 
             
 
-            <code class="ruby">      expect(result[:data][:attributes]).to have_key :api_key</code>
+            <code class="ruby">      expect( json_response[:data][:attributes]).to have_key(:api_key)</code>
           </li>
         </div>
       
@@ -7406,7 +7833,7 @@
 
             
 
-            <code class="ruby">      result = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">      json_response = JSON.parse(response.body, symbolize_names: true)</code>
           </li>
         </div>
       
@@ -7428,7 +7855,7 @@
 
             
 
-            <code class="ruby">      expect(result).to be_a(Hash)</code>
+            <code class="ruby">      expect( json_response).to be_a(Hash)</code>
           </li>
         </div>
       
@@ -7439,7 +7866,7 @@
 
             
 
-            <code class="ruby">      expect(result).to have_key(:error)</code>
+            <code class="ruby">      expect( json_response).to have_key(:error)</code>
           </li>
         </div>
       
@@ -7450,7 +7877,7 @@
 
             
 
-            <code class="ruby">      expect(result[:error]).to eq(&quot;Passwords must match&quot;)</code>
+            <code class="ruby">      expect( json_response[:error]).to eq(&quot;Passwords must match&quot;)</code>
           </li>
         </div>
       
@@ -7626,7 +8053,7 @@
 
             
 
-            <code class="ruby">      result = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">      json_response = JSON.parse(response.body, symbolize_names: true)</code>
           </li>
         </div>
       
@@ -7648,7 +8075,7 @@
 
             
 
-            <code class="ruby">      expect(result).to be_a(Hash)</code>
+            <code class="ruby">      expect( json_response).to be_a(Hash)</code>
           </li>
         </div>
       
@@ -7659,7 +8086,7 @@
 
             
 
-            <code class="ruby">      expect(result).to have_key(:error)</code>
+            <code class="ruby">      expect( json_response).to have_key(:error)</code>
           </li>
         </div>
       
@@ -7670,7 +8097,7 @@
 
             
 
-            <code class="ruby">      expect(result[:error]).to eq(&quot;invlalid infomation&quot;)</code>
+            <code class="ruby">      expect( json_response[:error]).to eq(&quot;invlalid infomation&quot;)</code>
           </li>
         </div>
       
