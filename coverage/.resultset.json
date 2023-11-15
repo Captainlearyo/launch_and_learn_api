@@ -225,6 +225,50 @@
           null
         ]
       },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          8,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/poros/recipe_poro_spec.rb": {
         "lines": [
           1,
@@ -327,6 +371,37 @@
           null,
           0,
           0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/requests/api/v1/requests/user_requests/create_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -635,8 +710,34 @@
           1,
           null
         ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/api/v1/users_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1700071597
+    "timestamp": 1700074525
   }
 }
