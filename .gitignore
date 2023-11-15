@@ -32,3 +32,6 @@
 
 # Ignore spec fixtures
 /spec/fixtures
+
+/coverage
+
