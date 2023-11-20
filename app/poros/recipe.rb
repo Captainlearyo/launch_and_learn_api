@@ -1,6 +1,5 @@
 class Recipe
   attr_reader :url, :title, :image, :country, :id
-
   def initialize(recipe_data)
     @id = nil
     @url = recipe_data[:uri]

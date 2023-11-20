@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe 'Food'do
-describe 'Food Poro' do
+RSpec.describe 'Recipe'do
+describe 'Recipe Poro' do
   it 'initializes with correct attributes' do
     attr = {
       uri: "http://123",

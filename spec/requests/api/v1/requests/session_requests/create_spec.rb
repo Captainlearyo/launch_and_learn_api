@@ -27,8 +27,21 @@ RSpec.describe "Create Session" do
     end
 
     it "Sad Path " do
-      
+      User.create(name: "John", email: "yahoo.com", password: "1234", password_confirmation: "1234")
 
+      user_login = {
+        "name": "John",
+        "email": "yahoo.com",
+        "password": "134",
+        "password_confirmation": "1234"
+      }
+
+      post "/api/v1/sessions", params: user_login, as: :json
+
+      json_response = JSON.parse(response.body, symbolize_names: true)
+
+      expect( json_response).to have_key(:error)
+      expect( json_response[:error]).to eq("User name or password incorrect")
     
     end
 end

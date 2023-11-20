@@ -198,6 +198,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -236,6 +237,14 @@
           2,
           2,
           null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -258,7 +267,7 @@
           1,
           null,
           1,
-          13,
+          23,
           null,
           null
         ]
@@ -267,6 +276,33 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/poros/learning_resourses_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -295,6 +331,84 @@
           1,
           1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/requests/api/v1/requests/favorites_requests/create_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/spec/requests/api/v1/requests/favorites_requests/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -370,9 +484,6 @@
           null,
           0,
           null,
-          0,
-          0,
-          null,
           null,
           null,
           null
@@ -395,22 +506,35 @@
           null,
           1,
           null,
-          0,
+          1,
           null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           1,
           null,
           null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
           null,
           null,
           null
@@ -638,7 +762,6 @@
         "lines": [
           1,
           1,
-          null,
           1,
           42,
           42,
@@ -646,6 +769,53 @@
           42,
           42,
           null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/api/v1/favorites_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/models/favorite.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/serializers/favorite_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -657,12 +827,6 @@
           2,
           2,
           null,
-          null
-        ]
-      },
-      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
           null
         ]
       },
@@ -787,6 +951,30 @@
           null
         ]
       },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/controllers/api/v1/users_controller.rb": {
         "lines": [
           1,
@@ -804,16 +992,8 @@
           null,
           null
         ]
-      },
-      "/Users/clayo/Web-Dev/3-Mod/Final/launch_and_learn_api/app/serializers/user_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1700077884
+    "timestamp": 1700519471
   }
 }

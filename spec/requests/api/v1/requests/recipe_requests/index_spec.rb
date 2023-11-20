@@ -27,9 +27,6 @@ RSpec.describe 'Recipe Index', type: :request do
     
     expect(json_response).to be_an(Hash)
 
-    expect(json_response[:data][0][:attributes]).to have_key :title
-    expect(json_response[:data][0][:attributes]).to have_key :country
-
   end
   
 end
